@@ -1,0 +1,12 @@
+<div class="container">
+<p>this is custompipe!</p>
+    <table class="table table-bordered">
+        <tr *ngFor = "let a of r">
+            <td>{{a.id}}</td>
+            <td>{{a.name}}</td>
+            <td>{{a.salary}}</td>
+            <td>{{a.age}}</td>
+            <td>{{a.salary|tax}}</td>
+        </tr>
+    </table>
+</div>

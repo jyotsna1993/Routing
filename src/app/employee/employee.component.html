@@ -1,0 +1,28 @@
+
+<p>employee works!</p>
+{{a}}
+<!-- {{c}} -->
+<!-- {{e}} -->
+<!-- <div class="container">
+    <table  class="table table-bordered">
+        <tr *ngFor = "let m of e">
+            <td>{{m.id}}</td>
+            <td>{{m.name}}</td>
+            <td>{{m.designation}}</td>
+            <td>{{m.salary|currency:'INR': 'symbol':'3.3-3'}}</td>
+            <td>{{m.DOB}}</td>
+            <td>{{m.salary|percentage}}</td>
+        </tr>
+    </table>
+</div> -->
+<div class="container">
+    <table class="table table-bordered">
+        <tr *ngFor="let j of c">
+            <td>{{j.id}}</td>
+            <td>{{j.name}}</td>
+            <td> <a href = "mailto:{{j.email}}">{{j.email|lowercase}}</a></td>
+            <td>{{j.address.street}}</td>
+            <td>{{j.phone}}</td>
+        </tr>
+        </table>
+</div>

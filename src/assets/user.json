@@ -1,0 +1,7 @@
+[
+    {"id":"1","name":"jyotsna","designation":"associateconsultant", "salary":"50000", "DOB":"09/12/93"},
+    {"id":"2","name":"ram","designation":"consultant", "salary":"70000","DOB":"01/12/1993"},
+    {"id":"3","name":"lakshman","designation":"softwareengineer", "salary":"20000","DOB":"09/08/1998"},
+    {"id":"4","name":"raj","designation":"seniorsoftwareengineer", "salary":"30000","DOB":"05/12/1994"},
+    {"id":"5","name":"rav","designation":"associateconsultant", "salary":"50000","DOB":"06/12/1991"}
+    ]

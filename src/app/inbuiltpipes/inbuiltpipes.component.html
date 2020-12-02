@@ -1,0 +1,16 @@
+<div class="container">
+<p>inbuiltpipes works!</p>
+<table  class="table table-bordered">
+    <tr *ngFor = "let m of e">
+        <td>{{m.id}}</td>
+        <td>{{m.name|uppercase}}</td>
+        <td>{{m.designation|titlecase}}</td>
+        <td>{{m.salary|currency:'INR': 'symbol':'3.2-3'}}</td> 
+        <!-- <td>{{m.salary|percent:'1.1-1'}}</td> -->
+        <td>{{m.DOB|date:"fullDate" | uppercase}}</td>
+        <td>{{m.salary|percentage}} </td>
+         <!-- <td>{{m.name|m.designation}}</td>  -->
+    </tr>
+</table>
+
+</div>
